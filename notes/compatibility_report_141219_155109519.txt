@@ -1,0 +1,46 @@
+Converting GML script: ${project_dir}\scripts\draw_button_rectangle\draw_button_rectangle.gml
+Converted description /// @description draw_button_rectangle(x1,y1,x2,y2,outline,hover_color,label, label_color);/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param outline
+/// @param hover_color
+/// @param label
+/// @param  label_color
+
+Converting GML script: ${project_dir}\scripts\draw_button_sprite\draw_button_sprite.gml
+Converted description /// @description draw_button_sprite(sprite_index, image_index, hover_index, x, y, label, label_color, radio_box)/// @param sprite_index
+/// @param  image_index
+/// @param  hover_index
+/// @param  x
+/// @param  y
+/// @param  label
+/// @param  label_color
+/// @param  radio_box
+
+Converting GML script: ${project_dir}\scripts\draw_slider_sprite\draw_slider_sprite.gml
+Converted description /// @description draw_slider_sprite(value, bar_sprite, slider_sprite, x, y)/// @param value
+/// @param  bar_sprite
+/// @param  slider_sprite
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\draw_invisible_slider\draw_invisible_slider.gml
+Converted description /// @description draw_invisible_slider(value,x1,y1,x2,y2)/// @param value
+/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+
+Converting GML script: ${project_dir}\scripts\point_in_sprite\point_in_sprite.gml
+Converted description /// @description point_in_sprite(sprite,frame,point_x,point_y,sprite_x,sprite_y)/// @param sprite
+/// @param frame
+/// @param point_x
+/// @param point_y
+/// @param sprite_x
+/// @param sprite_y
+
+!!! Font fnt_button uses a font (Lato) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_button\fnt_button.gms1.png
+Converting GML script: ${project_dir}\objects\obj_screenshot\KeyPress_83.gml
+Converted description /// @description Take a screenshot. Remove.

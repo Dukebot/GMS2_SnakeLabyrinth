@@ -1,0 +1,17 @@
+Converting GML script: ${project_dir}\objects\obj_draw\Draw_0.gml
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 29: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 34: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 39: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\rooms\room0\RoomCreationCode.gml
+Converted string - line 1: '"' -> "\""
+Converted string - line 5: '"' -> "\""
+
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
