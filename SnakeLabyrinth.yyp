@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "38394d16-5514-4572-8bcf-f6f4b98d2501",
+            "Value": {
+                "id": "b5af2389-6d3b-47d2-ba30-07aca64db582",
+                "resourcePath": "sprites\\Egg_Blue\\Egg_Blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a478306-b9ec-455a-b5b2-567e1b9361d3",
             "Value": {
                 "id": "d8507dfb-c7eb-42be-a6a9-d5874ca422e3",
@@ -1031,6 +1039,14 @@
             }
         },
         {
+            "Key": "873437ed-a3e0-47d8-9f82-6961d22311dd",
+            "Value": {
+                "id": "9964a168-c5f2-49ca-a993-48d77f996e5f",
+                "resourcePath": "sprites\\sFloor\\sFloor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "886d55ef-0aea-486d-b613-0852c0af1e3c",
             "Value": {
                 "id": "f5334ec4-dd69-4931-a40a-747d5f7bf00c",
@@ -1098,7 +1114,7 @@
             "Key": "934b29df-e840-4d14-9d58-398094a28f9b",
             "Value": {
                 "id": "f20ce5da-19e6-4700-b30a-7350f512a231",
-                "resourcePath": "sprites\\sSnake\\sSnake.yy",
+                "resourcePath": "sprites\\sSnakeOld\\sSnakeOld.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1292,6 +1308,14 @@
                 "id": "414aee0f-966b-401c-a11f-21fbe8ad5a98",
                 "resourcePath": "views\\aa0718f5-6b82-4d6f-b6ac-6f65ad1dacff.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aaf91171-cd26-499a-9f9c-b7f125813bd6",
+            "Value": {
+                "id": "ba1f8743-1592-40ac-a4fd-7e38543b1604",
+                "resourcePath": "sprites\\sSnake\\sSnake.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
