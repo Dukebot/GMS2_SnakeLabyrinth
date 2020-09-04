@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "08a35248-f933-4ee5-9ba3-752b963bf5ce",
-            "Value": {
-                "id": "3050fd0e-d11f-44c1-bc6b-964b23c3d8c4",
-                "resourcePath": "sprites\\sSnakeTurnInner\\sSnakeTurnInner.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0a3cd229-43cb-4e95-8378-ff64fdf94d6c",
             "Value": {
                 "id": "f11f7f5a-7622-49fb-bdfa-2e4a10f301ea",
@@ -1255,14 +1247,6 @@
             }
         },
         {
-            "Key": "a3d87009-3f97-46a6-8828-806406d4273c",
-            "Value": {
-                "id": "004ddecb-97d2-4043-9fe2-09e32755ede7",
-                "resourcePath": "sprites\\sSnakeBody\\sSnakeBody.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a59c392d-5ac9-4da5-b3ed-a5ef81073ea0",
             "Value": {
                 "id": "7e322912-3b15-4c03-bf68-9165ae63f491",
@@ -1722,7 +1706,7 @@
             "Key": "da9c0cf2-c1f6-49d8-8d37-830c794acb64",
             "Value": {
                 "id": "84cba8f3-466d-42c0-8e8e-8743550789b4",
-                "resourcePath": "sprites\\sSnake\\sSnake.yy",
+                "resourcePath": "sprites\\sSnake1\\sSnake1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1895,14 +1879,6 @@
             }
         },
         {
-            "Key": "ef9f84af-fb27-479d-ac30-c93058813c4e",
-            "Value": {
-                "id": "18d69dae-ccbd-4df7-abc3-eb355fe83f12",
-                "resourcePath": "sprites\\sSnakeHead\\sSnakeHead.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f0e38e83-dab5-43bd-b242-1c3368fd5045",
             "Value": {
                 "id": "9d7d3d57-8450-4474-962a-31942ba883c6",
@@ -1948,14 +1924,6 @@
                 "id": "152f65c2-1ead-4c2e-b965-923ec620bbda",
                 "resourcePath": "datafiles_yy\\readme.txt.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "f59e96f7-9edf-4598-8b68-d3322ecfe186",
-            "Value": {
-                "id": "98560a16-5087-45c8-8c6a-4a4da2bf570a",
-                "resourcePath": "sprites\\sSnakeTurn\\sSnakeTurn.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2028,6 +1996,14 @@
                 "id": "e3aeb4d9-bf26-4601-a359-cd867f47ed0c",
                 "resourcePath": "datafiles_yy\\SpriteFontSheets\\Stone4_color12_sheet.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "fd552f02-4a05-40a0-959b-051d76fdb328",
+            "Value": {
+                "id": "cc6f60a6-c7ec-4f7a-bf08-52847712677c",
+                "resourcePath": "sprites\\sSnake\\sSnake.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

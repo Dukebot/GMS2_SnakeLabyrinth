@@ -68,14 +68,14 @@ if (mouse or up or left or right or down) {
 	if (obj != 0 and obj.sprite_index == sMovablePosition) {
 		
 		//Ponemos la cabeza en la nueva posición
-		obj.sprite_index = sSnakeHead;
+		obj.sprite_index = sSnake;
 		obj.image_angle = obj.direction;
 		
 		//La casilla anterior ya no es cabeza, será cuerpo o giro
 		var previousObj = table[iCurrent, jCurrent];
-		previousObj.sprite_index = sSnakeBody;
+		previousObj.image_index = 1;
 		if (obj.direction != previousObj.direction) {
-			previousObj.sprite_index = sSnakeTurn;
+			previousObj.image_index = 2;
 			
 			//Orientar el giro hacia el ángulo correspondiente
 			if (previousObj.direction == 0 and obj.direction == 270) {
@@ -83,24 +83,30 @@ if (mouse or up or left or right or down) {
 			}
 			if (previousObj.direction == 90 and obj.direction == 180) {
 				previousObj.image_angle = 0;
+				previousObj.image_xscale = -1;
+				previousObj.image_angle = 270;
 			}
 			if (previousObj.direction == 90 and obj.direction == 0) {
-				previousObj.sprite_index = sSnakeTurnInner;
 				previousObj.image_angle = 90;
 			}
 			if (previousObj.direction == 0 and obj.direction == 90) {
 				previousObj.image_angle = 270;
+				previousObj.image_xscale = -1;
+				previousObj.image_angle = 180;
 			}
 			if (previousObj.direction == 180 and obj.direction == 270) {
 				previousObj.image_angle = 90;
+				previousObj.image_xscale = -1;
+				previousObj.image_angle = 0;
 			}
 			if (previousObj.direction == 180 and obj.direction == 90) {
-				previousObj.sprite_index = sSnakeTurnInner;
 				previousObj.image_angle = 180;
 			}
 			if (previousObj.direction == 270 and obj.direction == 0) {
 				previousObj.image_angle = 180;
-			}
+				previousObj.image_xscale = -1;
+				previousObj.image_angle = 90;
+			}		
 		}
 		
 		//Actualizar la posición actual con la posición de la cabeza
