@@ -1,8 +1,12 @@
 {
-    "id": "0fc8d48f-2803-4202-984f-553465e9fe3f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "isGameLost",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "oGame",
+    "path": "folders/Scripts/oGame.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "isGameLost",
+  "tags": [],
+  "resourceType": "GMScript",
 }

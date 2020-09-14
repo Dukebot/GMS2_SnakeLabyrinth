@@ -1,8 +1,12 @@
 {
-    "id": "563550a7-4f37-4824-9344-b2bc2ade2bbb",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "getNumAdjacents",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "oGame",
+    "path": "folders/Scripts/oGame.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "getNumAdjacents",
+  "tags": [],
+  "resourceType": "GMScript",
 }

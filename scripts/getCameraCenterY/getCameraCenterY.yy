@@ -1,8 +1,12 @@
 {
-    "id": "a752a8af-3c4c-449f-9efa-0386c8081b9a",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "getCameraCenterY",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Camera",
+    "path": "folders/Scripts/Utilities/Camera.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "getCameraCenterY",
+  "tags": [],
+  "resourceType": "GMScript",
 }

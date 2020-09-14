@@ -1,7 +1,12 @@
 ///@param name
 ///@param variable
-var name = argument0;
-var variable = argument1;
+function printVar(argument0, argument1) {
+	var name = argument0;
+	var variable = argument1;
 
-show_debug_message(string(name) + " = " + string(variable));
+	show_debug_message(string(name) + " = " + string(variable));
 
+
+
+
+}

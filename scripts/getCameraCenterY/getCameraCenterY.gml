@@ -1,6 +1,11 @@
 ///@param cameraIndex
-var cameraIndex = 0;
-if argument_count > 0
-	cameraIndex = argument[0];
+function getCameraCenterY() {
+	var cameraIndex = 0;
+	if argument_count > 0
+		cameraIndex = argument[0];
 	
-return getCameraY() + getCameraHeight()/2;
+	return getCameraY() + getCameraHeight()/2;
+
+
+
+}

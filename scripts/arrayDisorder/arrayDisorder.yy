@@ -1,8 +1,12 @@
 {
-    "id": "847d4265-1ecb-40d8-bf01-7ed60b7033b0",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "arrayDisorder",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Array",
+    "path": "folders/Scripts/Utilities/Array.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "arrayDisorder",
+  "tags": [],
+  "resourceType": "GMScript",
 }

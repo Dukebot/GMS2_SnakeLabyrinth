@@ -4,9 +4,9 @@ draw_set_valign(fa_bottom);
 //DRAW THE REST OF THE SNAKE
 var posX = 10*size + size/2;
 var posY = 10*size + size/2;
-draw_sprite_ext(sSnake, 1, posX, posY, 1, 1, 90, c_white, 1);
+draw_sprite_ext(snakeSprite, 1, posX, posY, 1, 1, 90, c_white, 1);
 posY += size;
-draw_sprite_ext(sSnake, 1, posX, posY, 1, 1, 90, c_white, 1);
+draw_sprite_ext(snakeSprite, 1, posX, posY, 1, 1, 90, c_white, 1);
 
 //DRAW LIMITING BLOCS
 for (var i = 0; i < array_height_2d(table); i++) {

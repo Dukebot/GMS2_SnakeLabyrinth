@@ -1,4 +1,8 @@
 ///@param sprite
-var sprite = argument0;
+function spriteW(argument0) {
+	var sprite = argument0;
 
-return sprite_get_width(sprite);
+	return sprite_get_width(sprite);
+
+
+}

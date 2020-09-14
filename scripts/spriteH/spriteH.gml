@@ -1,4 +1,8 @@
 ///@param sprite
-var sprite = argument0;
+function spriteH(argument0) {
+	var sprite = argument0;
 
-return sprite_get_height(sprite);
+	return sprite_get_height(sprite);
+
+
+}

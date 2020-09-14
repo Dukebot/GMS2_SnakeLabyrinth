@@ -1,3 +1,7 @@
 ///@param message
-var message = argument0;
-show_error(message, true);
+function exception(argument0) {
+	var message = argument0;
+	show_error(message, true);
+
+
+}

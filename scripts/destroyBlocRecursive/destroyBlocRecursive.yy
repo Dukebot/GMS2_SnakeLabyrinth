@@ -1,8 +1,12 @@
 {
-    "id": "7202cb3e-75e8-4804-a82c-bb4f48c15495",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "destroyBlocRecursive",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "oGame",
+    "path": "folders/Scripts/oGame.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "destroyBlocRecursive",
+  "tags": [],
+  "resourceType": "GMScript",
 }

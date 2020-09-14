@@ -1,8 +1,12 @@
 {
-    "id": "2e1ad496-c7ea-45ba-900b-3ed7c610dbac",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "array2DCreate",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Array",
+    "path": "folders/Scripts/Utilities/Array.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "array2DCreate",
+  "tags": [],
+  "resourceType": "GMScript",
 }

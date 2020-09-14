@@ -1,8 +1,12 @@
 {
-    "id": "b5593373-433b-4859-9b11-d173f5853e31",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "createInTable",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "oGame",
+    "path": "folders/Scripts/oGame.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "createInTable",
+  "tags": [],
+  "resourceType": "GMScript",
 }

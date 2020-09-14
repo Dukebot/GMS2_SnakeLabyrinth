@@ -1,0 +1,1 @@
+sprite_index = choose(sEgg, sEgg2, sEgg3, sEgg4);

@@ -1,8 +1,12 @@
 {
-    "id": "aefb52c7-6042-4ec2-b934-1b04cfad58ec",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "fillWithCoins",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "oGame",
+    "path": "folders/Scripts/oGame.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "fillWithCoins",
+  "tags": [],
+  "resourceType": "GMScript",
 }

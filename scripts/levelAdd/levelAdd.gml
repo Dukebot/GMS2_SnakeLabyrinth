@@ -1,12 +1,16 @@
 ///@param increment
-var increment = argument0;
+function levelAdd(argument0) {
+	var increment = argument0;
 
-global.LEVEL += increment;
+	global.LEVEL += increment;
 
-if (global.LEVEL > 20) {
-	global.LEVEL = 20;	
-}
+	if (global.LEVEL > 20) {
+		global.LEVEL = 20;	
+	}
 
-if (global.LEVEL < 1) {
-	global.LEVEL = 1;	
+	if (global.LEVEL < 1) {
+		global.LEVEL = 1;	
+	}
+
+
 }

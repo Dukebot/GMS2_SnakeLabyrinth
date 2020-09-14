@@ -68,7 +68,7 @@ if (mouse or up or left or right or down) {
 	if (obj != 0 and obj.sprite_index == sMovablePosition) {
 		
 		//Ponemos la cabeza en la nueva posición
-		obj.sprite_index = sSnake;
+		obj.sprite_index = snakeSprite;
 		obj.image_angle = obj.direction;
 		
 		//La casilla anterior ya no es cabeza, será cuerpo o giro

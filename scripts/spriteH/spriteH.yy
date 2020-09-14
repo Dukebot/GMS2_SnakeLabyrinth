@@ -1,8 +1,12 @@
 {
-    "id": "d16f0036-51ab-47e2-bd54-cc718dc14c81",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "spriteH",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Sprite",
+    "path": "folders/Scripts/Utilities/Sprite.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "spriteH",
+  "tags": [],
+  "resourceType": "GMScript",
 }

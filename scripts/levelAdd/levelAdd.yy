@@ -1,8 +1,12 @@
 {
-    "id": "97cf2292-4670-441a-bdb1-5b30eb154ce2",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "levelAdd",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "oGame",
+    "path": "folders/Scripts/oGame.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "levelAdd",
+  "tags": [],
+  "resourceType": "GMScript",
 }

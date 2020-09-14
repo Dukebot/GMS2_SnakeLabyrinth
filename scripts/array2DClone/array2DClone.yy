@@ -1,8 +1,12 @@
 {
-    "id": "4c7e0177-e005-42e2-aaa3-57f525c7e06a",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "array2DClone",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Array",
+    "path": "folders/Scripts/Utilities/Array.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "array2DClone",
+  "tags": [],
+  "resourceType": "GMScript",
 }
