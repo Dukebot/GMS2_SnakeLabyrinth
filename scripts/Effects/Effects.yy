@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "oGame",
-    "path": "folders/Scripts/oGame.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "createInTableMovables",
+  "name": "Effects",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -56,8 +56,16 @@ if (mouse or up or left or right or down) {
 	}
 	
 	//Controlar que los índices I e J no se salgan de los límites de la tabla
-	var lengthX = array_height_2d(table);
-	var lengthY = array_length_1d(table);
+	
+	//Versión antigua
+	//var lengthX = array_height_2d(table);
+	//var lengthY = array_length_1d(table);
+	
+	//Nueva versión de GAME MAKER
+	var lengthX = array_length_1d(table);
+	var lengthY = array_length_2d(table, 0);
+	
+	
 	if (i < 0 or i >= lengthX or j < 0 or j >= lengthY) {
 		exit;
 	}

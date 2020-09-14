@@ -3,20 +3,23 @@ draw_set_color(c_white);
 var yIncrement = 120;
 var yPos = yIncrement;
 
+
 //Draw title
 draw_set_font(global.fnt_stone3);
 draw_set_halign(fa_center);
 draw_text(room_width/2, yPos, "Snake Labyrinth");
 yPos += yIncrement;
 
+
 //Init button settings
 //draw_set_font(fnt_button);
 draw_set_font(fnt_retro);
-var btnWidth = sprite_get_width(spr_button);
+var btnWidth = sprite_get_width(global.buttonSprite);
 var arrowWidth = sprite_get_width(sArrowRight);
 
+
 //Room Play Button
-if(draw_button_sprite(spr_button, 0, 1, room_width/2 - btnWidth/2, yPos, "Start", c_white, false)) {
+if(draw_button_sprite(global.buttonSprite, 0, 1, room_width/2 - btnWidth/2, yPos, "Start", c_white, false)) {
 	//room_goto(rPlay);
 	goToLevel();
 }
@@ -40,7 +43,7 @@ yPos += yIncrement + 20;
 
 
 //Music
-if(draw_button_sprite(spr_button, 0, 1, room_width/2 - btnWidth/2, yPos, "Toggle Music", c_white, false)) {
+if(draw_button_sprite(global.buttonSprite, 0, 1, room_width/2 - btnWidth/2, yPos, "Toggle Music", c_white, false)) {
 	global.backgroundMusic = not global.backgroundMusic;
 	
 	audio_stop_all();

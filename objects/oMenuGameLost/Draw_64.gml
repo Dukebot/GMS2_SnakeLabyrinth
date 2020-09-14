@@ -12,8 +12,8 @@ yPos += yInc;
 draw_set_font(fnt_retro);
 
 //Restart
-if(draw_button_sprite(spr_button, 0, 1, 
-	room_width/2 - (sprite_get_width(spr_button)/2), yPos, 
+if(draw_button_sprite(global.buttonSprite, 0, 1, 
+	room_width/2 - (sprite_get_width(global.buttonSprite)/2), yPos, 
 	"Restart", c_white, false
 )) {
 	room_restart();
@@ -21,8 +21,8 @@ if(draw_button_sprite(spr_button, 0, 1,
 yPos += yInc;
 
 //Exit = Go to room menu
-if(draw_button_sprite(spr_button, 0, 1, 
-	room_width/2 - (sprite_get_width(spr_button)/2), yPos, 
+if(draw_button_sprite(global.buttonSprite, 0, 1, 
+	room_width/2 - (sprite_get_width(global.buttonSprite)/2), yPos, 
 	"Exit", c_white, false
 )) {
 	room_goto(rMenu);

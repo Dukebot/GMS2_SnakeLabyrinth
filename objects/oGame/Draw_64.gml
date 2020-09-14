@@ -29,9 +29,9 @@ draw_text(15, room_height-15, "LEVEL " + string(global.LEVEL));
 
 //Botón de pausa
 if (not instance_exists(oMenuGamePause)) {
-	if(draw_button_sprite(spr_button, 0, 1, 
-		room_width - spriteW(spr_button) - 10, 
-		room_height -spriteH(spr_button) - 10, 
+	if(draw_button_sprite(global.buttonSprite, 0, 1, 
+		room_width - spriteW(global.buttonSprite) - 10, 
+		room_height - spriteH(global.buttonSprite) - 10, 
 		"Menu", c_white, false)
 	) {
 		instanceCreate(oMenuGamePause);

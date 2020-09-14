@@ -12,8 +12,8 @@ posY += incrementY;
 draw_set_font(fnt_retro);
 
 //Next Level
-if(draw_button_sprite(spr_button, 0, 1, 
-	room_width/2 - (sprite_get_width(spr_button)/2), posY, 
+if(draw_button_sprite(global.buttonSprite, 0, 1, 
+	room_width/2 - (sprite_get_width(global.buttonSprite)/2), posY, 
 	"Next Level", c_white, false
 )) {
 	levelAdd(1);
@@ -30,8 +30,8 @@ posY += incrementY;
 
 
 //Exit = Go to room menu
-if(draw_button_sprite(spr_button, 0, 1, 
-	room_width/2 - (sprite_get_width(spr_button)/2),
+if(draw_button_sprite(global.buttonSprite, 0, 1, 
+	room_width/2 - (sprite_get_width(global.buttonSprite)/2),
 	posY, 
 	"Exit", c_white, false
 )) {

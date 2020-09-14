@@ -63,7 +63,4 @@ function drawButtonSprite() {
 	);
 
 	return r;
-
-
-
 }

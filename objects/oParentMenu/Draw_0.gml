@@ -12,12 +12,12 @@ yPos += yIncrement;
 
 //Init button settings
 draw_set_font(fnt_button);
-var btnWidth = sprite_get_width(spr_button);
+var btnWidth = sprite_get_width(global.buttonSprite);
 var arrowWidth = sprite_get_width(sArrowRight);
 
 
 //Room Play Button
-if(draw_button_sprite(spr_button, 0, 1, room_width/2 - btnWidth/2, yPos, "Start", c_white, false)) {
+if(draw_button_sprite(global.buttonSprite, 0, 1, room_width/2 - btnWidth/2, yPos, "Start", c_white, false)) {
 	//room_goto(rPlay);
 	goToLevel();
 }
@@ -41,7 +41,7 @@ yPos += yIncrement + 20;
 
 
 //Exit
-if(draw_button_sprite(spr_button, 0, 1, room_width/2 - btnWidth/2, yPos,"Exit", c_white, false)) {
+if(draw_button_sprite(global.buttonSprite, 0, 1, room_width/2 - btnWidth/2, yPos,"Exit", c_white, false)) {
 	game_end();
 	//alarm[0] = 1;
 }

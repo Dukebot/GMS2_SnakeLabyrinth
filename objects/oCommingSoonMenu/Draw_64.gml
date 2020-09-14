@@ -1,7 +1,7 @@
 draw_set_color(c_white);
 
 var yInc = 100;
-var posX = room_width/2 - sprite_get_width(spr_button)/2;
+var posX = room_width/2 - sprite_get_width(global.buttonSprite)/2;
 var posY = yInc*2;
 
 
@@ -19,6 +19,6 @@ posY += yInc;
 //Exit = Go to room menu
 draw_set_font(fnt_button);
 
-if(draw_button_sprite(spr_button, 0, 1, posX, posY, "Exit", c_white, false)) {
+if(draw_button_sprite(global.buttonSprite, 0, 1, posX, posY, "Exit", c_white, false)) {
 	room_goto(rMenu);
 }

@@ -8,9 +8,8 @@
 /// @param  label_color
 /// @param  radio_box
 function draw_button_sprite() {
-
-
 	var spr_index, img_index, hover_index, xx, yy, label, label_color, radio_box;
+	
 	spr_index = argument[0];
 	img_index = argument[1];
 	hover_index = argument[2];
@@ -73,8 +72,6 @@ function draw_button_sprite() {
 			string_hash_to_newline(label)
 		);
 	}
+	
 	return r;
-
-
-
 }
